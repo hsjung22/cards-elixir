@@ -7,8 +7,7 @@ defmodule Cards do
     Enum.shuffle(deck)
   end
 
-  """
-  def hello do
-    :world
+  def contains?(deck, card) do
+    Enum.member?(deck, card)    
   end
 end
